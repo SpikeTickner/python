@@ -8,7 +8,7 @@ i = int(i)
 while x <= i:
     prime = True
     for n in range(2, x):
-        #print (" n="+str(n)+" x="+str(x))
+        #print (" n="+str(n)+" x="+str(x)) #debug
         if n == 0:
             break
         if x != n and x % n == 0:
